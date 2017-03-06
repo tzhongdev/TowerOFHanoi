@@ -16,6 +16,8 @@ public class Tower {
 		beg.push(2);
 		beg.push(1);
 		
+		System.out.println("Welcome to the Towers of Hanoi");
+		
 		//before
 		System.out.println("Begin \n" + beg);
 		System.out.println("Aux \n"+ aux);
