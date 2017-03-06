@@ -17,7 +17,6 @@ public class Tower {
 		beg.push(1);
 		
 		System.out.println("Welcome to the Towers of Hanoi");
-		System.out.println("Example of Recursion");
 		
 		//before
 		System.out.println("Begin \n" + beg);
