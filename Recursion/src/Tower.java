@@ -1,5 +1,12 @@
 import java.util.Stack;
 
+/**
+ * Simple Implementation of Towers of Hanoi 
+ * with a Recursive Solution
+ * 
+ * @author thomas
+ *
+ */
 public class Tower {
 
 	public static void main(String[] args) {
@@ -44,9 +51,15 @@ public class Tower {
 		}
 		else {
 			// move
-			end.push(beg.pop());
+			move(beg, end);
+			
 		}
 
+	}
+
+	private static void move(Stack<Integer> beg, Stack<Integer> end) {
+		end.push(beg.pop());
+		
 	}
 
 
